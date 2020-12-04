@@ -1,0 +1,11 @@
+{
+  "name": "test-travis-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Rofound/test-travis-ci.git",
+  "author": "Pei <1353590214@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
