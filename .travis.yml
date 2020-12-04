@@ -1,3 +1,11 @@
-language: python
-sudo: required
-script: py.test
+language: node_js
+node_js:
+    - 10
+cache: yarn
+install:
+    - yarn
+script:
+    - yarn build
+after_success:
+    - cd dist
+    - git init
