@@ -5,6 +5,9 @@
   "repository": "https://github.com/Rofound/test-travis-ci.git",
   "author": "Pei <1353590214@qq.com>",
   "license": "MIT",
+  "script": {
+	"build": "echo \"hello\""
+  },
   "dependencies": {
     "axios": "^0.21.0"
   }
